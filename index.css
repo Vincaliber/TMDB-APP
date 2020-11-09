@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#bdy {
+  
+  font-family: 'Raleway',
+  sans-serif;
+  background-color: #22a6b3;
+  color: #ffffff;
+}
+
+.row{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.navbar-header{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-header h3{
+   font-weight: bold;
+}
+
+.navbar-brand {
+  padding: 0 !important;
+}
+
+.navbar-brand>img {
+  margin: 0 20px;
+}
+
+nav.navbar.navbar-inverse.navbar-fixed-top {
+  padding: 10px;
+}
+
+.flex{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.pt150 {
+  padding-top: 150px;
+}
+
+#genre{
+  text-transform: capitalize;
+}
+
+#res {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#title h3{
+  font-weight: bold;
+}
+
+h1,
+p {
+  color: #fff;
+}
+
+hr{
+  border-top: 1px solid #d2d2d2 !important;
+}
+
+.form-group {
+  margin-bottom: 40px !important;
+}
+
+.movieListDiv{
+      padding: 20px 0px;
+      background: #f0932b;
+      box-shadow: 0 0 5px 0px #f0932b;
+      color: #fff;
+}
+
+#imgDiv{
+  overflow: hidden;
+  border-radius: .5em;
+  border: 5px solid #fff;
+}
+
+#imgDiv img {
+  width: 100%;
+  transition: transform .5s ease;
+}
+
+#imgDiv:hover img {
+ transform: scale(1.1);
+}
+
+
